@@ -1,0 +1,32 @@
+
+body{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: rgb(184, 165, 165); */
+    /* background-image: url("dark-mode-websites.png"); */
+}
+.navbar{
+    
+    /* background: linear-gradient(rgba(48, 30, 116, 0.9),rgba(58, 26, 146, 0.3)); */
+
+}
+.image{
+    width: 400px;
+    
+}
+h1{
+    font-style: unset;
+    color: black;
+    font-family: serif;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    font-style: initial ;
+    font-family: serif;
+}
+.icon{
+    width: 50px;
+}
