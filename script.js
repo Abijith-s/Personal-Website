@@ -4,6 +4,9 @@ let emailChecking = false;
 let numberChecking = false;
 let messageChecking = false;
 $(document).ready(function(){
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
 $("#fname").on('input',function(){
     this.value=this.value.replace(/[^A-Za-z-,.;'&/.() ]|^ /g,'')
     let name = this.value
